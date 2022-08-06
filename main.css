@@ -74,6 +74,7 @@ a{
     }
     .post{
         width: 80%;
+        padding: 80%;
         border-radius: 23px;
     }
 }
