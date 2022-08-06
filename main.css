@@ -65,6 +65,7 @@ a{
 @media screen and (max-width: 732px){
     .card{
         width: 80%;
+        border-radius: 23px;
     }
     .card img{
         width: 60%;
