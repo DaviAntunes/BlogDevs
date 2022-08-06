@@ -25,13 +25,16 @@ a{
     text-decoration: none;
 }
 .card{
+    border-radius: 23px;
+    transition: all 150ms;
     display: inline-block;
     width: 300pt;
     text-align: center;
     font-family: Arial;
     background-color: white;
     margin: 20pt;
-    border: 9px solid black;
+    border: 9px solid rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px #666666;
 }
 .card h1{
     font-family: Arial;
@@ -55,6 +58,9 @@ a{
 }
 .post h3{
     word-break: break-all;
+}
+.card:hover{
+    box-shadow: 18px 18px 18px #666666;
 }
 @media screen and (max-width: 732px){
     .card{
