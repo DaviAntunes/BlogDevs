@@ -49,12 +49,13 @@ a{
 .post{
     color: black;
     font-family: Arial;
-    width: 400px;
+    width: 500px;
     display: inline-block;
     text-align: center;
     margin: 20pt;
     background-color: white;
     border: 9px solid black;
+    border-radius: 23px;
 }
 .post h3{
     word-break: break-all;
